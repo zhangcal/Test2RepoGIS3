@@ -1,0 +1,301 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :File: Queen1NoNAPokeTractsFinal7131.gal
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          13
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         182
+R-squared           :      0.4110
+Adjusted R-squared  :      0.3722
+Sum squared residual:     570.463                F-statistic           :     10.5841
+Sigma-square        :       3.134                Prob(F-statistic)     :   9.315e-16
+S.E. of regression  :       1.770                Log likelihood        :    -381.354
+Sigma-square ML     :       2.925                Akaike info criterion :     788.708
+S.E of regression ML:      1.7104                Schwarz criterion     :     831.257
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       8.7203328       2.2671178       3.8464400       0.0001656
+             ag_rent      -0.0008688       0.0004351      -1.9968398       0.0473329
+                aprp      -3.3706702       1.2946872      -2.6034630       0.0099901
+                bprp      -9.1462502       2.3361479      -3.9150990       0.0001276
+             commute      -0.0522466       0.0399611      -1.3074343       0.1927145
+                hprp      -1.5563056       2.0480839      -0.7598837       0.4483073
+               mC2km       0.0098903       0.0239907       0.4122577       0.6806357
+           mNumTrips       0.0005373       0.0004039       1.3300993       0.1851499
+          mPoshDistM       0.0005127       0.0002208       2.3215874       0.0213626
+          mStationKm      -0.6301997       0.1537777      -4.0981207       0.0000627
+                pden       0.0000186       0.0000092       2.0367314       0.0431255
+                pinc      -0.0000063       0.0000100      -0.6321679       0.5280705
+                uemp       0.0020775       0.0014866       1.3974597       0.1639766
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           59.020
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2          27.219           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               12          13.421           0.3392
+Koenker-Bassett test             12           8.035           0.7824
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1          40.286           0.0000
+Robust LM (lag)                   1          15.112           0.0001
+Lagrange Multiplier (error)       1          28.010           0.0000
+Robust LM (error)                 1           2.836           0.0922
+Lagrange Multiplier (SARMA)       2          43.122           0.0000
+
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :        None
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          13
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         182
+R-squared           :      0.4110
+Adjusted R-squared  :      0.3722
+Sum squared residual:     570.463                F-statistic           :     10.5841
+Sigma-square        :       3.134                Prob(F-statistic)     :   9.315e-16
+S.E. of regression  :       1.770                Log likelihood        :    -381.354
+Sigma-square ML     :       2.925                Akaike info criterion :     788.708
+S.E of regression ML:      1.7104                Schwarz criterion     :     831.257
+
+White Standard Errors
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       8.7203328       2.2301346       3.9102271       0.0001300
+             ag_rent      -0.0008688       0.0004073      -2.1329897       0.0342655
+                aprp      -3.3706702       1.2769122      -2.6397041       0.0090180
+                bprp      -9.1462502       1.9740918      -4.6331434       0.0000068
+             commute      -0.0522466       0.0381021      -1.3712259       0.1719929
+                hprp      -1.5563056       2.0536417      -0.7578272       0.4495345
+               mC2km       0.0098903       0.0234900       0.4210456       0.6742185
+           mNumTrips       0.0005373       0.0003362       1.5978153       0.1118188
+          mPoshDistM       0.0005127       0.0002311       2.2182058       0.0277777
+          mStationKm      -0.6301997       0.1393373      -4.5228367       0.0000110
+                pden       0.0000186       0.0000087       2.1492201       0.0329377
+                pinc      -0.0000063       0.0000103      -0.6114207       0.5416841
+                uemp       0.0020775       0.0013574       1.5304516       0.1276413
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           59.020
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2          27.219           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               12          13.421           0.3392
+Koenker-Bassett test             12           8.035           0.7824
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1          40.286           0.0000
+Robust LM (lag)                   1          15.112           0.0001
+Lagrange Multiplier (error)       1          28.010           0.0000
+Robust LM (error)                 1           2.836           0.0922
+Lagrange Multiplier (SARMA)       2          43.122           0.0000
+
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :        None
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          13
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         182
+R-squared           :      0.4110
+Adjusted R-squared  :      0.3722
+Sum squared residual:     570.463                F-statistic           :     10.5841
+Sigma-square        :       3.134                Prob(F-statistic)     :   9.315e-16
+S.E. of regression  :       1.770                Log likelihood        :    -381.354
+Sigma-square ML     :       2.925                Akaike info criterion :     788.708
+S.E of regression ML:      1.7104                Schwarz criterion     :     831.257
+
+HAC Standard Errors; Kernel Weights: File: AdaptiveKernelNoNAPokeTractsFinal7131.kwt
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       8.7203328       2.2392061       3.8943859       0.0001381
+             ag_rent      -0.0008688       0.0003829      -2.2687899       0.0244550
+                aprp      -3.3706702       1.2533933      -2.6892358       0.0078271
+                bprp      -9.1462502       2.0884617      -4.3794197       0.0000200
+             commute      -0.0522466       0.0396847      -1.3165404       0.1896482
+                hprp      -1.5563056       2.1072832      -0.7385365       0.4611398
+               mC2km       0.0098903       0.0221153       0.4472163       0.6552506
+           mNumTrips       0.0005373       0.0003199       1.6792807       0.0948132
+          mPoshDistM       0.0005127       0.0002628       1.9509284       0.0526009
+          mStationKm      -0.6301997       0.1477306      -4.2658725       0.0000320
+                pden       0.0000186       0.0000082       2.2761535       0.0240015
+                pinc      -0.0000063       0.0000097      -0.6494048       0.5168955
+                uemp       0.0020775       0.0013333       1.5581920       0.1209249
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           59.020
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2          27.219           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               12          13.421           0.3392
+Koenker-Bassett test             12           8.035           0.7824
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1          40.286           0.0000
+Robust LM (lag)                   1          15.112           0.0001
+Lagrange Multiplier (error)       1          28.010           0.0000
+Robust LM (error)                 1           2.836           0.0922
+Lagrange Multiplier (SARMA)       2          43.122           0.0000
+
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :File: Queen1NoNAPokeTractsFinal7131.gal
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          14
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         181
+Pseudo R-squared    :      0.5363
+Spatial Pseudo R-squared:  0.3914
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       3.9946294       2.1831322       1.8297698       0.0672844
+        W_pokemon_de       0.8235847       0.1731511       4.7564497       0.0000020
+             ag_rent      -0.0004412       0.0003838      -1.1497740       0.2502370
+                aprp      -1.1908574       1.2010118      -0.9915451       0.3214195
+                bprp      -2.8783088       2.3977320      -1.2004297       0.2299725
+             commute      -0.0556349       0.0342723      -1.6233183       0.1045214
+                hprp      -1.1241973       1.7584892      -0.6392973       0.5226296
+               mC2km      -0.0143418       0.0211924      -0.6767415       0.4985700
+           mNumTrips       0.0003174       0.0003494       0.9082388       0.3637521
+          mPoshDistM       0.0001589       0.0002034       0.7811901       0.4346907
+          mStationKm      -0.1759123       0.1628144      -1.0804463       0.2799435
+                pden       0.0000023       0.0000086       0.2712752       0.7861794
+                pinc      -0.0000015       0.0000086      -0.1730363       0.8626229
+                uemp       0.0021436       0.0012748       1.6815293       0.0926602
+------------------------------------------------------------------------------------
+Instrumented: W_pokemon_de
+Instruments: W_ag_rent, W_aprp, W_bprp, W_commute, W_hprp, W_mC2km,
+             W_mNumTrips, W_mPoshDistM, W_mStationKm, W_pden, W_pinc, W_uemp
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Anselin-Kelejian Test             1           5.981          0.0145
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :File: Queen1NoNAPokeTractsFinal7131.gal
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          14
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         181
+Pseudo R-squared    :      0.5363
+Spatial Pseudo R-squared:  0.3914
+
+White Standard Errors
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       3.9946294       2.2270356       1.7936981       0.0728614
+        W_pokemon_de       0.8235847       0.1537317       5.3572842       0.0000001
+             ag_rent      -0.0004412       0.0003401      -1.2974522       0.1944756
+                aprp      -1.1908574       1.3304978      -0.8950464       0.3707623
+                bprp      -2.8783088       2.2155536      -1.2991375       0.1938967
+             commute      -0.0556349       0.0377099      -1.4753378       0.1401217
+                hprp      -1.1241973       1.8499411      -0.6076936       0.5433907
+               mC2km      -0.0143418       0.0233798      -0.6134265       0.5395944
+           mNumTrips       0.0003174       0.0003291       0.9642293       0.3349310
+          mPoshDistM       0.0001589       0.0001960       0.8109832       0.4173753
+          mStationKm      -0.1759123       0.1363753      -1.2899128       0.1970809
+                pden       0.0000023       0.0000096       0.2419471       0.8088211
+                pinc      -0.0000015       0.0000101      -0.1481502       0.8822242
+                uemp       0.0021436       0.0012201       1.7568927       0.0789361
+------------------------------------------------------------------------------------
+Instrumented: W_pokemon_de
+Instruments: W_ag_rent, W_aprp, W_bprp, W_commute, W_hprp, W_mC2km,
+             W_mNumTrips, W_mPoshDistM, W_mStationKm, W_pden, W_pinc, W_uemp
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Anselin-Kelejian Test             1           5.981          0.0145
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL TWO STAGE LEAST SQUARES
+--------------------------------------------------
+Data set            :NoNAPokeTractsFinal7131.dbf
+Weights matrix      :File: Queen1NoNAPokeTractsFinal7131.gal
+Dependent Variable  :  pokemon_de                Number of Observations:         195
+Mean dependent var  :      3.8086                Number of Variables   :          14
+S.D. dependent var  :      2.2344                Degrees of Freedom    :         181
+Pseudo R-squared    :      0.5363
+Spatial Pseudo R-squared:  0.3914
+
+HAC Standard Errors; Kernel Weights: File: AdaptiveKernelNoNAPokeTractsFinal7131.kwt
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     z-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       3.9946294       2.2530328       1.7730010       0.0762285
+        W_pokemon_de       0.8235847       0.1545024       5.3305616       0.0000001
+             ag_rent      -0.0004412       0.0003199      -1.3793803       0.1677775
+                aprp      -1.1908574       1.2456461      -0.9560158       0.3390643
+                bprp      -2.8783088       2.1207514      -1.3572118       0.1747139
+             commute      -0.0556349       0.0405351      -1.3725114       0.1699043
+                hprp      -1.1241973       1.7936751      -0.6267564       0.5308189
+               mC2km      -0.0143418       0.0200416      -0.7156011       0.4742377
+           mNumTrips       0.0003174       0.0003025       1.0492241       0.2940750
+          mPoshDistM       0.0001589       0.0001874       0.8482152       0.3963181
+          mStationKm      -0.1759123       0.1322037      -1.3306156       0.1833155
+                pden       0.0000023       0.0000092       0.2529445       0.8003111
+                pinc      -0.0000015       0.0000093      -0.1607157       0.8723174
+                uemp       0.0021436       0.0012550       1.7079966       0.0876370
+------------------------------------------------------------------------------------
+Instrumented: W_pokemon_de
+Instruments: W_ag_rent, W_aprp, W_bprp, W_commute, W_hprp, W_mC2km,
+             W_mNumTrips, W_mPoshDistM, W_mStationKm, W_pden, W_pinc, W_uemp
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Anselin-Kelejian Test             1           5.981          0.0145
+================================ END OF REPORT =====================================
+
+

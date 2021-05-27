@@ -1,0 +1,176 @@
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokePointsFinal7131.dbf
+Weights matrix      :File: Queen1NoNAPokePoints7131.gal
+Dependent Variable  :  numpokemon                Number of Observations:        9527
+Mean dependent var  :      4.7390                Number of Variables   :          12
+S.D. dependent var  :      3.0813                Degrees of Freedom    :        9515
+R-squared           :      0.0572
+Adjusted R-squared  :      0.0561
+Sum squared residual:   85266.041                F-statistic           :     52.5064
+Sigma-square        :       8.961                Prob(F-statistic)     :  3.075e-113
+S.E. of regression  :       2.994                Log likelihood        :  -23958.135
+Sigma-square ML     :       8.950                Akaike info criterion :   47940.270
+S.E of regression ML:      2.9916                Schwarz criterion     :   48026.213
+
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       7.6230543       0.4715453      16.1661141       0.0000000
+             ag_rent       0.0003501       0.0000893       3.9215823       0.0000886
+                aprp      -1.4537852       0.2595003      -5.6022497       0.0000000
+                bprp      -5.5150313       0.6333529      -8.7076758       0.0000000
+               c_2km      -0.0324831       0.0050367      -6.4492727       0.0000000
+             commute      -0.0265946       0.0064727      -4.1087426       0.0000401
+                hprp      -3.8321040       0.5085765      -7.5349601       0.0000000
+                pden       0.0000030       0.0000024       1.2615219       0.2071518
+                pinc      -0.0000128       0.0000021      -6.0059198       0.0000000
+          posh_distm       0.0006040       0.0000443      13.6345652       0.0000000
+          station_km      -0.6858449       0.0345158     -19.8704885       0.0000000
+                uemp      -0.0000519       0.0002773      -0.1870013       0.8516636
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           48.717
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2        1677.791           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               11         807.121           0.0000
+Koenker-Bassett test             11         569.186           0.0000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1         373.514           0.0000
+Robust LM (lag)                   1          23.720           0.0000
+Lagrange Multiplier (error)       1         362.409           0.0000
+Robust LM (error)                 1          12.615           0.0004
+Lagrange Multiplier (SARMA)       2         386.129           0.0000
+
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokePointsFinal7131.dbf
+Weights matrix      :        None
+Dependent Variable  :  numpokemon                Number of Observations:        9527
+Mean dependent var  :      4.7390                Number of Variables   :          12
+S.D. dependent var  :      3.0813                Degrees of Freedom    :        9515
+R-squared           :      0.0572
+Adjusted R-squared  :      0.0561
+Sum squared residual:   85266.041                F-statistic           :     52.5064
+Sigma-square        :       8.961                Prob(F-statistic)     :  3.075e-113
+S.E. of regression  :       2.994                Log likelihood        :  -23958.135
+Sigma-square ML     :       8.950                Akaike info criterion :   47940.270
+S.E of regression ML:      2.9916                Schwarz criterion     :   48026.213
+
+White Standard Errors
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       7.6230543       0.4324927      17.6258584       0.0000000
+             ag_rent       0.0003501       0.0000897       3.9029460       0.0000957
+                aprp      -1.4537852       0.2540690      -5.7220102       0.0000000
+                bprp      -5.5150313       0.5642895      -9.7734073       0.0000000
+               c_2km      -0.0324831       0.0048044      -6.7611740       0.0000000
+             commute      -0.0265946       0.0061660      -4.3130942       0.0000163
+                hprp      -3.8321040       0.5125272      -7.4768787       0.0000000
+                pden       0.0000030       0.0000023       1.3203435       0.1867521
+                pinc      -0.0000128       0.0000020      -6.2945818       0.0000000
+          posh_distm       0.0006040       0.0000420      14.3940707       0.0000000
+          station_km      -0.6858449       0.0310666     -22.0766043       0.0000000
+                uemp      -0.0000519       0.0002309      -0.2245813       0.8223099
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           48.717
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2        1677.791           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               11         807.121           0.0000
+Koenker-Bassett test             11         569.186           0.0000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1         373.514           0.0000
+Robust LM (lag)                   1          23.720           0.0000
+Lagrange Multiplier (error)       1         362.409           0.0000
+Robust LM (error)                 1          12.615           0.0004
+Lagrange Multiplier (SARMA)       2         386.129           0.0000
+
+================================ END OF REPORT =====================================
+
+
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES
+-----------------------------------------
+Data set            :NoNAPokePointsFinal7131.dbf
+Weights matrix      :        None
+Dependent Variable  :  numpokemon                Number of Observations:        9527
+Mean dependent var  :      4.7390                Number of Variables   :          12
+S.D. dependent var  :      3.0813                Degrees of Freedom    :        9515
+R-squared           :      0.0572
+Adjusted R-squared  :      0.0561
+Sum squared residual:   85266.041                F-statistic           :     52.5064
+Sigma-square        :       8.961                Prob(F-statistic)     :  3.075e-113
+S.E. of regression  :       2.994                Log likelihood        :  -23958.135
+Sigma-square ML     :       8.950                Akaike info criterion :   47940.270
+S.E of regression ML:      2.9916                Schwarz criterion     :   48026.213
+
+HAC Standard Errors; Kernel Weights: File: AdaptiveKernelNoNAPokePointsFinal7131.kwt
+------------------------------------------------------------------------------------
+            Variable     Coefficient       Std.Error     t-Statistic     Probability
+------------------------------------------------------------------------------------
+            CONSTANT       7.6230543       0.5467297      13.9430049       0.0000000
+             ag_rent       0.0003501       0.0001143       3.0644402       0.0021869
+                aprp      -1.4537852       0.3552618      -4.0921514       0.0000431
+                bprp      -5.5150313       0.8798819      -6.2679221       0.0000000
+               c_2km      -0.0324831       0.0059318      -5.4761134       0.0000000
+             commute      -0.0265946       0.0075137      -3.5394862       0.0004028
+                hprp      -3.8321040       0.6618970      -5.7895775       0.0000000
+                pden       0.0000030       0.0000027       1.1246310       0.2607738
+                pinc      -0.0000128       0.0000027      -4.6878656       0.0000028
+          posh_distm       0.0006040       0.0000592      10.2112931       0.0000000
+          station_km      -0.6858449       0.0407031     -16.8499226       0.0000000
+                uemp      -0.0000519       0.0002935      -0.1767154       0.8597357
+------------------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+MULTICOLLINEARITY CONDITION NUMBER           48.717
+
+TEST ON NORMALITY OF ERRORS
+TEST                             DF        VALUE           PROB
+Jarque-Bera                       2        1677.791           0.0000
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY
+RANDOM COEFFICIENTS
+TEST                             DF        VALUE           PROB
+Breusch-Pagan test               11         807.121           0.0000
+Koenker-Bassett test             11         569.186           0.0000
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+TEST                           MI/DF       VALUE           PROB
+Lagrange Multiplier (lag)         1         373.514           0.0000
+Robust LM (lag)                   1          23.720           0.0000
+Lagrange Multiplier (error)       1         362.409           0.0000
+Robust LM (error)                 1          12.615           0.0004
+Lagrange Multiplier (SARMA)       2         386.129           0.0000
+
+================================ END OF REPORT =====================================
+
+

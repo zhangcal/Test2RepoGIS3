@@ -207,6 +207,7 @@ Figure 13 shows that our actual average distance to the 1st nearest neighbor (in
 Intuitively, this means whatever algorithm the Pokemon Go company uses to generate spawn locations is not random, but likely to favor clustering. Thus, rather than being explaiend by any particular regressor like race or income, pokemon density is best explained by spatial autocorrelation. The algorithm behind spawn locations may be structured such that spawn location appearing in a particular place may be more likely if that location has many neighboring Pokemon spawn points. 
 
 # 9 Conclusion:
+
 My original research question was **What covariates are most strongly associated with the spatial intensity of Pokemon Go spawns? Using Pokemon data from San Francisco**.  The analysis includes exploratory mapping, spatial lag regression models, and point pattern analysis.
 
 Most of the literature so far claim that there are strong associations between spatial Pokemon intensity and regressors like amenities and race of the neighborhood. While I do see some exploratory evidence of these theories, my final results offer another theory.
@@ -229,7 +230,7 @@ I believe a further direction for this project would be to frame pokemon density
 Another completely different direction would be mapping the geography of Pokemon Go through clustering algorithms. For example, we could do a spatially constrained clustering analysis to identify hotspots of Pokemon Go, then see if socioeconomic variables differ significantly across clusters. 
 
 # 11 Works Cited
-Please see the pdf file in 
+Please see the pdf file in the GIS3WorksCited folder.
 
 
 
